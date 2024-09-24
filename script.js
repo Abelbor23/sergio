@@ -5,5 +5,5 @@ document.getElementById("clock").innerHTML = new Date().toUTCString();
 
 // Loop every 1 second updating the text of "#clock"
 setInterval(() => {
-    document.getElementById("clock").innerHTML = new Date().toUTCString();
-}, 1000)
+    document.getElementById("clock").innerHTML = new Date().toLocaleDateString();
+}, 10)
